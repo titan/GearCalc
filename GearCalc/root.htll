@@ -16,12 +16,14 @@
    (above
     title
     (center
-     (vseq
+     (^^
       gears
-      (above speedlabel speedmeter 0.5)
-      blank
-      (above tacholabel tachometer 0.5)
-      blank)
+      (vseq
+       (above speedlabel speedmeter 0.5)
+       blank
+       (above tacholabel tachometer 0.5)
+       blank)
+      20)
      0.01 0.01)
     0.15)
    'self.view))
