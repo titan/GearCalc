@@ -33,9 +33,6 @@
     unit = 3.6;
     pi = 3.1415926535;
     #include "root.view-did-load.h"
-    [gears addTarget:self action:@selector(segmentedValueChanged:) forControlEvents:UIControlEventValueChanged];
-    [speedmeter addTarget:self action:@selector(sliderValueChanged:) forControlEvents:UIControlEventValueChanged];
-    [tachometer addTarget:self action:@selector(sliderValueChanged:) forControlEvents:UIControlEventValueChanged];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
